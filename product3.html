@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Охлажденная семга</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+        .contact {
+            text-align: right;
+        }
+        .product-details {
+            display: flex;
+            margin: 20px 0;
+            padding: 20px;
+            border: 2px solid #f0f0f0; /* Легкая рамка вокруг описания */
+            border-radius: 10px; /* Скругленные углы */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень для придания глубины */
+        }
+        .product-details img {
+            max-width: 55%; /* Увеличение ширины изображения */
+            margin-right: 40px; /* Увеличение отступа справа */
+        }
+        .product-details div {
+            max-width: 45%; /* Уменьшение ширины описания */
+        }
+        .product-details h2 {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .product-details p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product-details button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .footer {
+    background-color: #d5ecf8;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    margin: 10px 0;
+}
+
+.footer-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.social-media a img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    background-color: #97c9f1;
+    padding: -1px 1;
+
+}
+        .benefits {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .benefits div {
+            text-align: center;
+            margin: 0 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .benefits p {
+            margin-top: 10px;
+            font-size: 14px;
+            max-width: 100px;
+        }
+        .clients {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .clients div {
+            display: inline-block;
+            margin: 0 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo"><img src="img/logo.png" alt="Logo"></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a id="product-link" href="product.html">Продукция</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="contact">
+                <p>+7 771 415 1454</p>
+                <a href="#">Написать в WhatsApp</a>
+            </div>
+        </header>
+        <main>
+            <div class="product-details">
+                <img src="img/3.jpg" alt="Охлажденная семга">
+                <div>
+                    <h2>Охлажденная семга (лосось), весом 5-6кг</h2>
+                    <p>Семга охлажденная с головой, разделка по желанию</p>
+                    <p>57 000 тг/шт</p>
+                    <p>В продаже охлажденная семга прямо из вод Норвегии. Одна рыбка весом 5-6кг доставляется самолетом, поэтому будьте уверены, что рыба на вашем столе всегда будет свежей. Мы можем бесплатно разделать рыбу на филе, стейки, почистить и убрать жабры.</p>
+                    <button onclick="window.location.href='index.html'">Купить</button>
+                </div>
+            </div>
+            <div class="benefits">
+                <div>
+                    <img src="img/d5.svg fill.png" alt="Free Delivery">
+                    <p>Бесплатная и быстрая доставка</p>
+                </div>
+                <div>
+                    <img src="img/fish-white.svg fill.png" alt="Cleaning">
+                    <p>Почистим рыбу, сделаем филировку</p>
+                </div>
+                <div>
+                    <img src="img/steak-white.svg fill.png" alt="Steak">
+                    <p>Напилим на стейки рыбу</p>
+                </div>
+                <div>
+                    <img src="img/fish-market-white.svg fill.png" alt="Assortment">
+                    <p>Широкий ассортимент</p>
+                </div>
+                <div>
+                    <img src="img/delicious-white.svg fill.png" alt="Quality">
+                    <p>Гарантия качества</p>
+                </div>
+                <div>
+                    <img src="img/fishing-white.svg fill.png" alt="Fresh">
+                    <p>Всегда свежие продукты</p>
+                </div>
+            </div>
+            <div class="clients">
+                <h3>Наши клиенты:</h3>
+                <div>
+                    <img src="img/k1.svg fill.png" alt="Private">
+                    <p>Частные лица</p>
+                </div>
+                <div>
+                    <img src="img/k3.svg fill.png" alt="Restaurant">
+                    <p>Рестораны</п>
+                </div>
+                <div>
+                    <img src="img/k2.svg fill.png" alt="Hotel">
+                    <p>Гостиницы</п>
+                </div>
+                <div>
+                    <img src="img/k4.svg fill.png" alt="Catering">
+                    <p>Кейтеринговые</п>
+                </div>
+                <div>
+                    <img src="img/k5.svg fill.png" alt="Banquet">
+                    <p>Банкетные залы</п>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <p>Адрес: г. Алматы,<br>Алматинская область,<br>с. Бесағаш, ул. Хамраева 64</p>
+                <div class="social-media">
+                    <a href="#"><img src="img/icons8-facebook-50 (1).png" alt="Facebook"></a>
+                    <a href="#"><img src="img/icons8-телеграм-24 (1).png" alt="WhatsApp"></a>
+                    <a href="#"><img src="img/icons8-whatsapp-50.png" alt="VK"></a>
+                    <a href="#"><img src="img/icons8-instagram-48.png" alt="Instagram"></a>
+                </div>
+                <p>Подпишись на наш инстаграм</p>
+            </div>
+            <div class="footer-section">
+                <img src="img/logo.png" alt="Семь Морей">
+            </div>
+            <div class="footer-section">
+                <p>+7 771 415 1454</p>
+                <p>Режим работы: Пн-Пт<br>с 09:00 до 18:00<br>Сб-Вс выходной</p>
+                <p>E-mail: info@7morey.kz</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© Колдина Альбина Викторовна</p>
+        </div>
+    </footer>
+</body>
+</html>
+</body>
+</html>
